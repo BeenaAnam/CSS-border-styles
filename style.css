@@ -1,0 +1,70 @@
+body{ 
+     width: 100vw;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;    
+}
+.container{
+    width: 330px;
+    height: auto;
+    margin: 5px;
+}
+div{  
+    display:inline-block;
+    width: 300px;
+    height: 172px;
+    margin: 20px;
+}
+h1{ 
+    background: linear-gradient(pink,purple);
+    padding: 10px;
+}    
+h3{
+   padding: 60px;
+}
+.first{
+    border: 7px solid rgb(152, 224, 42);
+    border-radius: 150px 150px 0 0;
+}
+.second{
+    border: 7px solid rgb(250, 217, 32) ;
+    border-radius: 30px;
+}
+.third{
+        border: 7px solid #235027;
+        border-radius: 10px 90px 90px 10px;
+}
+.fouth{
+    border-radius: 0 165px ;
+    border: 7px solid rgb(233, 28, 96);
+}
+.advfirst{
+    border-radius: 125px 125px 0 0;
+    border-style: groove ridge  dashed groove ;
+    border-width: 5px 40px 3px 40px ;
+    border-color:rgb(152, 224, 42);   
+}
+.advsecond{
+    border-color :rgb(231, 66, 121) ;
+    border-radius: 90px;
+    border-width: 20px ;
+    border-style: none double none double;
+}
+.advthird{
+    border-style:groove;
+    border-width: 15px;
+    border-color: rgb(152, 224, 42) rgb(241, 241, 47) rgb(127, 255, 212) rgb(233, 28, 96) ;
+    border-radius: 15px 100px 100px 15px;
+
+}
+.advfouth{
+    background-color: rgb(152, 224, 42);
+    border-radius: 0 165px ;
+    border-width: 5px 40px ;
+    border-style: solid solid solid solid;
+    border-color: rgb(117, 226, 226) rgb(117, 226, 226) rgb(233, 28, 96) rgb(233, 28, 96);
+}
